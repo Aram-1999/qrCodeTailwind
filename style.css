@@ -1,0 +1,65 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    display: flex;
+    background-color:hsl(212, 45%, 89%);
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;   
+}
+
+
+.attribution { 
+    font-size: 0.6875em; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.card {
+    height: 499px;
+    width: 320px;
+    background-color:  hsl(0, 0%, 100%);
+    padding: 16px 16px 40px 16px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+
+
+.card img {
+    display: flex;
+    width: 288px;
+    height: 288px;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.text {
+    width: 288px;
+    height: 131px;
+    padding: 0 16px;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: hsl(218, 44%, 22%);
+    font-family: "Outfit", sans-serif;
+    font-weight: 800;
+    font-size: 1.375em;
+    text-align: center;
+}
+
+p {
+    color: hsl(216, 15%, 48%);
+    font-size: 0.9375em;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
